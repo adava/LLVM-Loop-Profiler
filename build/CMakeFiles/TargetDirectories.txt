@@ -1,0 +1,6 @@
+/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/build/CMakeFiles/rebuild_cache.dir
+/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/build/CMakeFiles/intrinsics_gen.dir
+/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/build/CMakeFiles/edit_cache.dir
+/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/build/program/CMakeFiles/rebuild_cache.dir
+/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/build/program/CMakeFiles/LICPass.dir
+/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/build/program/CMakeFiles/edit_cache.dir

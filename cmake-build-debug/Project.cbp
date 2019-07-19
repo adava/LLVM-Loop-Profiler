@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\;CMake Files\program\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LICPass">
+				<Option output="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/libLICPass.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/llvm-6.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 LICPass"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LICPass/fast">
+				<Option output="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/libLICPass.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/llvm-6.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 LICPass/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/program/iterationPass.cpp">
+			<Option target="LICPass"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/cmake/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/cmake/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/lib/cmake/llvm/AddLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/lib/cmake/llvm/DetermineGCCCompatible.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/lib/cmake/llvm/LLVMExports-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/../../../../../../../usr/lib/llvm-6.0/lib/cmake/llvm/LLVMProcessSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\llvm-6.0\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/sina/Desktop/llvm-cs202/llvm/projects/LICPass/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
