@@ -65,7 +65,7 @@ Note that I added “-g -S -emit-llvm -Wno-enum-conversion” to the CFLAGS and 
 After running the above, you will get ll files that contain the llvm IR. Then you can use the shell script (run chmod +x to give permission to the .sh file)  to produce a .csv file containing the result of analysis.
 The .so library is produced for llvm (clang) 9. But you should be able to compile it for other versions as well. Just comy the pass source codes to the llvm project folder and run the following in the build folder:
 
-        cd [project]/program
+        cd [project(usually llvm/projects/LICPass)]/program
         cmake clean -DCMAKE_BUILD_TYPE=Release ../
         cd [project]/build
         Make -j4
