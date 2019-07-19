@@ -77,7 +77,7 @@ The .so library is produced for llvm (clang) 9. But you should be able to compil
  Make sure loopProfiler script points to the correct path to the .so file.
  The output looks like this:
 
-function name,Infinite loops,Bounded loops,Formulated loop condition,	Nested loops,Inductive loops LoC,loops in total,file name
+        function name,Infinite loops,Bounded loops,Formulated loop condition,	Nested loops,Inductive loops LoC,loops in total,file name
 
         vsf_access_check_file, 0, 0, 0, 0, 0, 0, NA, access.ll
         vsf_access_check_file_visible, 0, 0, 0, 0, 0, 0, NA, access.ll
